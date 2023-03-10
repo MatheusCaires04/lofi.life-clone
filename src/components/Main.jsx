@@ -46,11 +46,11 @@ const Main = () => {
           music="https://cdn.pixabay.com/download/audio/2021/10/02/audio_488159f25d.mp3?filename=gentle-ocean-waves-breaking-on-beach-a-8946.mp3"
         />
         <CardMusic
-          image={image7}
+          image={image8}
           music="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3"
         />
         <CardMusic
-          image={image8}
+          image={image7}
           music="https://cdn.pixabay.com/download/audio/2022/05/13/audio_257112ce99.mp3?filename=soft-rain-ambient-111154.mp3"
         />
         <CardMusic
