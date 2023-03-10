@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black font-fontInter;
+}
+
+.before1::before {
+  content: "relax";
+  position: absolute;
+  @apply bg-gradient-to-r from-violet-600 to-violet-300 bg-clip-text text-transparent;
+  animation: animationGradient1 8s infinite;
+}
+.before2::before {
+  content: "chill";
+  position: absolute;
+  @apply bg-gradient-to-r from-indigo-500 to-indigo-300 bg-clip-text text-transparent;
+  animation: animationGradient2 8s infinite;
+}
+.before3::before {
+  content: "code";
+  position: absolute;
+  @apply bg-gradient-to-r from-yellow-600 to-red-600 bg-clip-text text-transparent;
+  animation: animationGradient3 8s infinite;
+}
+@keyframes animationGradient1 {
+  0%,
+  16.667%,
+  100% {
+    opacity: 1;
+  }
+  33.333%,
+  83.333% {
+    opacity: 0;
+  }
+}
+@keyframes animationGradient2 {
+  0%,
+  16.667%,
+  66.667%,
+  100% {
+    opacity: 0;
+  }
+  33.333%,
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes animationGradient3 {
+  0%,
+  50%,
+  100% {
+    opacity: 0;
+  }
+  66.667%,
+  83.333% {
+    opacity: 1;
+  }
+}
