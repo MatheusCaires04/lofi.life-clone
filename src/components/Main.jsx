@@ -23,7 +23,7 @@ const Main = () => {
       <div className="max-w-[940px] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
         <CardMusic
           image={image1}
-          music="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3"
+          music="https://cdn.pixabay.com/download/audio/2023/01/01/audio_816821e627.mp3?filename=relaxed-vlog-131746.mp3.mp3"
         />
         <CardMusic
           image={image2}
